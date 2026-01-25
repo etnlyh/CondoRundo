@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import uvicorn
-from model import predict_price
+from model import estimate_price
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -15,7 +15,7 @@ app.add_middleware(
 
 @app.get("/price")
 def get_price(size: int, rooms: int):
-    price = predict_price(size, rooms)
+    price = estimatet_price(size, rooms)
     return {
         "size": size,
         "rooms": rooms,

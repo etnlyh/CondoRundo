@@ -9,7 +9,7 @@ model = tf.keras.models.load_model(MODEL_PATH)
 
 # model = tf.keras.models.load_model("../models/house_price_model.keras")
 
-def predict_price(size: int, rooms: int):
+def estimate_price(size: int, rooms: int):
     X = np.array([[size, rooms]], dtype=float)
 
     # Same normalization
