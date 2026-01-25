@@ -15,20 +15,20 @@ CondoChase empowers students with data-backed insights to negotiate better and r
 Frontend\
 •React.js: A modern UI library for a responsive, single-page experience.\
 •Vite: Next-generation frontend tooling for fast development and optimized builds.\
-•CSS3: Custom professional styling with glassmorphism and dark-mode aesthetics.\
+•CSS3: Custom professional styling with glassmorphism and dark-mode aesthetics.
 
 Backend & AI\
 •FastAPI: A high-performance Python framework for building APIs.\
 •TensorFlow / Keras: Powers the core Neural Network model used for price estimation.\
 •NumPy: Handles numerical operations and data normalization.\
-•Uvicorn: An ASGI web server implementation for Python.\
+•Uvicorn: An ASGI web server implementation for Python.
 
 # Key Features
 •AI Estimator: Input square footage and room counts to get a neural-network-generated price estimation.\
 •Student-Centric UI: A professional, distraction-free interface designed for quick use.\
-•Real-Time Validation: Instant feedback and input controls (steppers) to ensure accurate data entry.\
+•Real-Time Validation: Instant feedback and input controls (steppers) to ensure accurate data entry.
 
 # Future Roadmap
 •Location Intelligence: Integrate neighborhood-specific data for more granular estimations.\
 •Comparison Tool: Save and compare multiple condo listings.\
-•Interest Rate Calculator: Help students understand the full cost of homeownership vs. renting.\
+•Interest Rate Calculator: Help students understand the full cost of homeownership vs. renting.
